@@ -6,3 +6,11 @@ Las notas de cada clase se pueden observar a continuación.
 
 Puede obtenerse se https://www.toptal.com/developers/gitignore
 Siempre considerando los OS que podrían usarse en cualquier colaborador del proyecto.
+
+# Game Project
+Comandos para correr el juego.
+
+```sh
+cd game
+python main.py
+```
