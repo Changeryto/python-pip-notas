@@ -79,5 +79,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
+# Solicitudes HTTP con request
 
+```python
+import request
 
+r = requests.get("https://api.escuelajs.co/api/v1/categories")
+```
