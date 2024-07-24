@@ -1,4 +1,4 @@
-#!bin/python
+import matplotlib.pyplot as plt
 
 """Piedra, papel o tijera!
 
@@ -95,6 +95,10 @@ def run_game():
             if computer_win < user_win:
                 print(f"¡Ganaste con {user_win} puntos!")
                 break
+
+            plt.plot()
+
+        
 
 
 if __name__ == "__main__":

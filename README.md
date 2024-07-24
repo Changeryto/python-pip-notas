@@ -31,3 +31,53 @@ pip install [nombre_de_biblioteca]
 pip freeze
 ```
 
+## Crear entorno virtual
+
+```sh
+python -m venv {nombre}
+```
+
+Usualmente nombre es solo env
+
+```sh
+# Activar el ambiente
+source env/bin/activate
+
+# Desactivar el ambiente
+deactivate
+```
+
+Al principio no habrá paquetes instalados en el nuevo entorno virtual.
+
+# requirements.txt
+Este archivo gestiona las dependencias y los archivos que requiere el proyecto.
+
+En general se convierte pip freeze a un requirements.txt
+
+Se crea con 
+
+```sh
+pip freeze > requirements.txt
+```
+
+Y para instalar las dependencias.
+
+```sh
+pip install requirements.txt
+```
+
+# App Proyect
+
+Instrucciones para levantar el proyecto.
+
+```sh
+git clone xxx
+cd app
+python -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+python main.py
+```
+
+
+
