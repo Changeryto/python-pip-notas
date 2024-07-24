@@ -86,3 +86,9 @@ import request
 
 r = requests.get("https://api.escuelajs.co/api/v1/categories")
 ```
+
+# Lanzar servidor con Uvicorn
+
+```sh
+uvicorn main:app --reload
+```
